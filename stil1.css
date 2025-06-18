@@ -1,0 +1,41 @@
+@charset "utf-8";
+/* CSS Document */
+
+.pozadina1 {
+	background-image: url("slike/pozadina2.jpg");
+}
+
+.pozadina2 {
+	background-image: url("slike/pozadina2.jpg");
+}
+
+@font-face {
+  font-family: "PAnaSimic";
+  src: url("PAnaSimic.ttf") format("truetype");
+}
+
+h1 {
+  font-family: "PAnaSimic", sans-serif;
+  color: pink;
+  text-align: center;
+  font-weight: 350;
+  padding: 20px 40px;
+  font-size: 64px;
+}
+
+h2 {
+	font-family: "Lucida Grande", serif;
+	color: pink;
+	padding: 20px;
+	font-weight: 300;
+	font-size: 36px;
+}
+
+p {
+	color: rgba(70, 172, 58, 1.0);
+	font-family: "Lucida Grande", sans-serif;
+	font-size: 30px;
+	background-color: rgba(227, 200, 223, 1.0);
+	padding: 20px;
+	font-size: 24px;
+}
